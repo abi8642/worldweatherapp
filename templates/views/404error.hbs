@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>head}}
+    <title>Weather App | 404 Page</title>
+</head>
+
+<body>
+    {{>header}}
+
+    <!-- main header -->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <div class="col-md-12 col-12 main_header_left align-items-center">
+                        <figure class="errimg">
+                            <img src="photo\error-404-6052476_1920.png" alt="abi" class="img-fluid mx-auto">
+                        </figure>
+                        <div class="errmsg">
+                            <h1>{{errorMsg}}</h1>
+                            <button class="btn"><a href="/">Go Back</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{>footer}}
+</body>
+
+</html>
